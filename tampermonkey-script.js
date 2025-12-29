@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         github-go-deepwiki
 // @namespace
-// @version      0.4
+// @version      0.5
 // @description  github仓库跳转到deepwiki
 // @source       https://github.com/gxr404/go-deepwiki
 // @author       gxr404
