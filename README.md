@@ -8,6 +8,13 @@ github 跳转 deepwiki 的油猴脚本
 
 2. 安装脚本[greasyfork](https://greasyfork.org/zh-CN/scripts/534059-github-go-deepwiki)
 
+### 另一种方式
+
+不想装tampermonkey的用户，也可以试试这个chrome插件:
+
+- chorme插件地址: [github-deepwiki](https://chromewebstore.google.com/detail/github-deepwiki-unofficia/agchcjkheangfiopepndmenabbaopnpp)
+- 插件的开源地址: [github-deepwiki](https://github.com/yamadashy/github-deepwiki)
+
 ## 预览
 
 ![preview](./asset/preview.png)
