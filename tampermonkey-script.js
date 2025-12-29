@@ -48,6 +48,7 @@ function createGoDeepWikiDOM() {
 <li id="go-deepwiki">
   <div data-view-component="true" class="BtnGroup d-flex">
       <a href="${deepWikiUrl}"
+        target="_blank"
         rel="nofollow"
         aria-label="Go DeepDeepwikiWiki"
         data-view-component="true"
