@@ -29,8 +29,9 @@ function watchDom(dom, callback) {
 }
 
 function main() {
-  // match https://github.com/<user>/<repo>
-  if (location.pathname.split('/').filter(Boolean).length !== 2) return
+  // 为匹配 https://github.com/<user>/<repo>/tree/xxxx 移除以下判断
+  // // match https://github.com/<user>/<repo>
+  // // if (location.pathname.split('/').filter(Boolean).length !== 2) return
   if (document.getElementById('go-deepwiki')) return
   const repoBtnContainer = document.getElementById('repository-details-container')
   if (!repoBtnContainer) return
