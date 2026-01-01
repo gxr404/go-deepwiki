@@ -50,7 +50,7 @@ function createGoDeepWikiDOM() {
       <a href="${deepWikiUrl}"
         target="_blank"
         rel="nofollow"
-        aria-label="Go DeepDeepwikiWiki"
+        aria-label="Go DeepWiki"
         data-view-component="true"
         class="tooltipped tooltipped-sw btn-sm btn">
         Go Deepwiki
