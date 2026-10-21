@@ -7,6 +7,9 @@
 // @author       gxr404
 // @match        https://github.com/*
 // @grant        none
+// @namespace 
+// @downloadURL https://update.greasyfork.org/scripts/534059/github-go-deepwiki.user.js
+// @updateURL https://update.greasyfork.org/scripts/534059/github-go-deepwiki.meta.js
 // ==/UserScript==
 (function() {
   'use strict';
@@ -33,11 +36,11 @@ function main() {
   // // match https://github.com/<user>/<repo>
   // // if (location.pathname.split('/').filter(Boolean).length !== 2) return
   if (document.getElementById('go-deepwiki')) return
-  const repoBtnContainer = document.getElementById('repository-details-container')
+
+  const repoBtnContainer = document.querySelector('[data-testid="repo-header-actions"]')
   if (!repoBtnContainer) return
-  const btnList = repoBtnContainer.querySelector('ul')
-  if (!btnList) return
-  btnList.appendChild(createGoDeepWikiDOM())
+
+  repoBtnContainer.appendChild(createGoDeepWikiDOM())
 }
 
 function createGoDeepWikiDOM() {
@@ -50,7 +53,7 @@ function createGoDeepWikiDOM() {
       <a href="${deepWikiUrl}"
         target="_blank"
         rel="nofollow"
-        aria-label="Go DeepWiki"
+        aria-label="Go DeepDeepwikiWiki"
         data-view-component="true"
         class="tooltipped tooltipped-sw btn-sm btn">
         Go Deepwiki
